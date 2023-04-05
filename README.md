@@ -16,8 +16,8 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<!-- 
-<!-- HEADER 
+<!-- -->
+<!-- HEADER -->
 <br>
 <header align="center">
    <img align="center" src="logo.png"><br/> <br/>
@@ -26,7 +26,7 @@
     Descripton pour tout les projet
   </p>
 </header>
--->
+
 
 
 <!-- TABLE OF CONTENTS -->
