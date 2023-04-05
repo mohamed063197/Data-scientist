@@ -47,8 +47,6 @@
   </ol>
 
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## Apropos Des Projets
 
