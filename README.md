@@ -1,9 +1,6 @@
 <!-- command Kv for live  -->
 
 
-
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -19,61 +16,49 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
- ![Logo](Logo.png)
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-   
-  <h3 align="center">Best-README-Template</h3>
+<!-- HEADER -->
+<br>
+<header align="center">
+   <img align="center" src="logo.png"><br/> <br/>
+  <h1 align="center">Projets Data Scientist</h1>
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    Descripton pour tout les projet
   </p>
-</div>
+</header>
 
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
+
+  <summary>Table De Matière</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Apropos Des Projets</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Langages utilisés </a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Pour Commencer</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#prerequisites">Prérequis</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#acknowledgments">Remerciements</a></li>
   </ol>
-</details>
+
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Apropos Des Projets
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+ <br><div align="center"><img align="center" src="SKLearn.png"></div><br>
+
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -86,11 +71,11 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 Use the `BLANK_README.md` to get started.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Revenir en haut</a>)</p>
 
 
 
-### Built With
+### Langages utilisés
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
