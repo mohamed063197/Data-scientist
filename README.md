@@ -16,7 +16,8 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<!-- HEADER -->
+<!-- 
+<!-- HEADER 
 <br>
 <header align="center">
    <img align="center" src="logo.png"><br/> <br/>
@@ -25,7 +26,7 @@
     Descripton pour tout les projet
   </p>
 </header>
-
+-->
 
 
 <!-- TABLE OF CONTENTS -->
@@ -77,9 +78,8 @@ Use the `BLANK_README.md` to get started.
 
 ### Langages utilisés
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
+Le type fichier que j'utilise dans mes projets est notebook *.ipynb*. Donc vous devez utlisez IDE anaconda.
+* [![Python][Python.js]][Python-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
