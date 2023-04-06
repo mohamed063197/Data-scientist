@@ -1,24 +1,12 @@
 <!-- command Kv for live  -->
 
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-
-<!-- -->
 <!-- HEADER -->
 <br>
 <header align="center">
    <img align="center" src="logo.png"><br/> <br/>
   <h1 align="center">Projets Data Scientist</h1>
   <p align="center">
-    Descripton pour tout les projet
+    Machine Learning
   </p>
 </header>
 
@@ -31,24 +19,25 @@
     <li>
       <a href="#about-the-project">Présentations Des Chapitres</a>
       <ul>
-        <li><a href="#built-with">Langages utilisés </a></li>
-      </ul>
+          <li><a href="#built-with">Chapitre 1: Les Bases Du Langague Python </a></li>
+         <li><a href="#built-with">Chapitre 2: Le Calcul Numèrique</a></li>
+         <li><a href="#built-with">Chapitre 3 Visualisation des données</a></li>
+         <li><a href="#built-with">Chapitre 4: Preprocessing</a></li>
+         <li><a href="#built-with">Chapitre 5: Régression Linèaire</a></li>
+         <li><a href="#built-with">Chapitre 6: Initiation à l'apprentissage supervisé</a></li>
+         <li><a href="#built-with">Chapitre 7: Apprentissage Non supervisé</a></li>
+        </ul>
     </li>
     <li>
-      <a href="#getting-started">Pour Commencer</a>
-      <ul>
-        <li><a href="#prerequisites">Prérequis</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a href="#getting-started">Pour Commencer</a> 
     </li>
-    <li><a href="#usage">Usage</a></li>
+   <li><a href="#built-with">Langages utilisés </a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Remerciements</a></li>
+ </li>
   </ol>
 
-
 <!-- ABOUT THE PROJECT -->
-## Apropos Des Projets
+## Présentations Des Chapitres
 
  <br><div align="center"><img align="center" src="SKLearn.png"></div><br>
 
@@ -56,48 +45,51 @@
 
 Le 1er chapitre contient Les bases du langage Python.
 
-## Chapitre 2: Calcule Numèrique: 
+## Chapitre 2: Le Calcul Numèrique
 -*Numpy et pandas*-
 
-Les deux packages principaux pour manipuler des données sont NumPy et Pandas. Le deuxième chapitre contient un détail de l'utilisation des trois structures de base de ces packages que sont les ndarray de NumPy et les Series et DataFrame de Pandas.
+Les deux packages principaux pour manipuler des données sont NumPy et Pandas. Le premier chapitre contient l'utilisation des trois structures de base de ces packages que sont les ndarray de NumPy et les Series et DataFrame de Pandas.
 
 
 ## Chapitre 3: Visualisation des données 
 -*matplotlib et seaborn*-
   
-De nombreux packages sont disponibles en Python pour représenter des données
-de manière attractive.
+De nombreux packages sont disponibles en Python pour représenter des donnéesde manière attractive.
 
-**Matplotlib** est le plus connu est et sert de base à de nombreux autres packages.
+**Matplotlib** est le plus connu est et sert de base à de nombreux autres packages.C'est un package complet pour la data visualisation. Il est basé sur la construction de graphiques en utilisant des commandes simples.
 
-**Matplotlib** est un package complet pour la data visualisation. Il est basé sur la
-construction de graphiques en utilisant des commandes simples.
+**Seaborn** est un autre package intéressant pour la création de graphiques. Il est basé sur Matplotlib. Son principal intérêt réside dans la création de graphiques plus spécifiques en quelques lignes de code.
 
-**Seaborn** est un autre package intéressant pour la création de graphiques. Il est basé sur Matplotlib et en utilise les principes. Son principal intérêt réside dans la création de graphiques plus spécifiques en quelques lignes de code.
+## Chapitre 4: Preprocessing
 
+Le bruit altère les données collectées et risque de rendre difficile l’apprentissage de la relation que l’on cherche à prédire, voire de rendre la modélisation impossible.
+
+Dans l’immense majorité des problèmes réels, la collecte des données est confrontée à une voire plusieurs formes de bruits. Ces bruits peuvent être d’origine « matérielle » (bruit blanc dans les signaux électriques, bruit au sens acoustique, etc.), d’imprécision ou de défaut dans les mesures issues de capteurs, d’approximation dans les données ou encore de données manquantes car non mesurées. Dans ce chapitre Nous traitons des données bruité dimenssion 1,2 afin d'enlever le bruit en utilisant la transformé de fourier ainsi que le filtrage pour les images.
 
 ## Chapitre 5: Régression Linèaire
+
 La régression linéaire simple sert à trouver unne relation d’une variable de sortie (continue) par rapport à une autre.
+Les étapes pour créer un algorihme d'apprentissage basé sur la régression avec python sont:
 
 - Génération de données aléatoires avec une tendance linéaire.
   
 - Création de la matrice X qui contient la colonne de Biais.
   
-- Finalement, création d'un vecteur parametre $\theta$, initialisé avec des coefficients aléatoires.
+- Création d'un vecteur parametre $\theta$, initialisé avec des coefficients aléatoires.
   
-- On implémente un modele $F = X.\theta$, puis on teste le modele pour voir s'il n'y a pas de bug (bonne pratique oblige)
+- Implementation d'un modele $F = X.\theta$.
   
-- On mesure les erreurs du modele sur le Dataset X, y en implémenterl'erreur quadratique moyenne.
+- La mesure des erreurs du modele sur le Dataset X, y en implémenterl'erreur quadratique moyenne.
   
-- On implémente la formule du gradient pour la **MSE**
+- Implementation la formule du gradient pour la **MSE**
   
-- On définit un **nombre d'itérations**, ainsi qu'un **pas d'apprentissage $\alpha$**.
+- définition d'un **nombre d'itérations**, ainsi qu'un **pas d'apprentissage $\alpha$**.
 
 - Une fois le modele entrainé, on observe les resultats par rapport a notre Dataset.
 
 - Tracage de la courbe d'apprentissage afin de vérifier si notre algorithme de Descente de gradient a bien fonctionné, on observe l'évolution de la fonction cout a travers les itérations.
 
-- Evaluation finale pour évaluer la réelle performance de notre modele avec une métrique populaire (pour votre patron, client, ou vos collegues) on peut utiliser le **coefficient de détermination**,
+- Evaluation finale pour évaluer la réelle performance du modele avec une métrique populaire (pour votre patron, client, ou vos collegues) on peut utiliser le **coefficient de détermination**,
 
 $\frac{\partial J(\theta) }{\partial \theta} = \frac{1}{m} X^T.(X.\theta - y)$
 
@@ -105,36 +97,36 @@ Ensuite on utilise cette fonction dans la descente de gradient:
 
 $\theta = \theta - \alpha \frac{\partial J(\theta) }{\partial \theta}$
 
-## Chapitre 6: Initiation a l'apprentissage supervisè:
+## Chapitre 6: Initiation à l'apprentissage supervisé
+
+La régression est un autre type de méthode d’apprentissage supervisé qui utilise un algorithme pour comprendre la relation entre les variables dépendantes et indépendantes. Les modèles de régression sont utiles pour prédire des valeurs numériques sur la base de différents points de données. Les algorithmes de régression sont par exemple la régression linéaire, la régression logistique et la régression polynomiale.
+
+Les problèmes de classification utilisent un algorithme pour affecter avec précision des données de test à des catégories spécifiques. Les algorithmes d’apprentissage supervisé peuvent être utilisés pour classer les spams dans un dossier distinct de sa boîte de réception par exemple. Les classifieurs linéaires, les machines à vecteurs de support, les arbres de décision et les forêts d’arbres décisionnels sont tous des types courants d’algorithmes de classification.
 
 
-Use the `BLANK_README.md` to get started.
+## Chapitre 7: Apprentissage Non supervisé
+
+L’apprentissage non supervisé utilise des algorithmes de machine learning pour analyser et regrouper des ensembles de données non étiquetées. Ces algorithmes découvrent des modèles cachés dans les données sans nécessiter d’intervention humaine.
+
+Le clustering est une technique d’exploration de données permettant de regrouper des données non étiquetées en fonction de leurs similitudes ou de leurs différences. Cette technique est utile pour la segmentation de marché, la compression d’images, etc.
+
+
 
 <p align="right">(<a href="#readme-top">Revenir en haut</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Pour Commencer
 
-Faire une copie du projet:
+Pour avoir ce projet veuillez copier le dossier comme suit:
+
 ```sh
-  git clone https://github.com/med063197Data-Scientist
+  git clone https://github.com/med063197Data-Scientist.git
 
   ```
 
+## Languages utilisés
 
-## Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-## Installation
-
-_Le type fichier que j'utilise dans mes projets est notebook *.ipynb*. Vous pouvez utilisé anaconda en installant tout ce que je vous est mis en bas.
+Le type fichier que j'utilise dans mes projets est notebook *.ipynb*. Vous pouvez utiliser anaconda en installant tout ce que je vous ai mis en bas.
 <ul>
     <li> 
     <a href='https://www.python.org/' target="_blank"><img alt='Python' src='https://img.shields.io/badge/Python-100000?style=for-the-badge&logo=Python&logoColor=white&labelColor=214767&color=FDE284'/></a> 
@@ -158,7 +150,7 @@ _Le type fichier que j'utilise dans mes projets est notebook *.ipynb*. Vous pouv
      
 </ul>
 
-<p align="right">(<a href="#readme-top">Retour en haut</a>)</p>
+
 
 <!-- CONTACT -->
 ## Contact
